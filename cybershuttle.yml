@@ -3,7 +3,7 @@ project:
   description: "Predict NBA game outcomes using TensorFlow"
   authors:
     - ppatel686@gatech.edu
-    - pnarala@gatech.edu
+    - pnarala3@gatech.edu
     - ngoyal63@gatech.edu
   tags:
     - airavata-courses
