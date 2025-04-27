@@ -1,0 +1,41 @@
+project:
+  name: "NBA Prediction Model"
+  description: "Predict NBA game outcomes using TensorFlow"
+  authors:
+    - Your Name
+  tags:
+    - nba
+    - prediction
+    - tensorflow
+
+workspace:
+  location: /workspace
+  resources:
+    min_cpu: 4
+    min_gpu: 1
+    min_mem: 8192
+    gpu_mem: 1024
+  model_collection: []
+  data_collection: []
+
+additional_dependencies:
+  conda:
+    - python=3.8
+    - pip
+    - pandas
+    - numpy
+    - tensorflow>=2.6.0
+    - scikit-learn
+  pip:
+    - nba_api
+    - requests
+
+runtime:
+  input_files:
+    - nba_prediction.py
+  output_files:
+    - "*.csv"
+    - "*.json"
+    - "*.log"
+    - "nba_prediction_model/"
+  command: "python nba_prediction.py"
