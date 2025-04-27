@@ -155,8 +155,4 @@ python-dotenv
 - python-dotenv: environment variable loading
 - airavata-python-sdk: HPC submission (in notebook)
 
----
 
-## Contact
-
-For questions or issues, please open an issue on GitHub or reach out directly.
