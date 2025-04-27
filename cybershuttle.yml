@@ -15,7 +15,10 @@ workspace:
     min_gpu: 1
     min_mem: 8192
     gpu_mem: 1024
-  model_collection: []
+  model_collection: 
+    - source: cybershuttle
+      identifier: airavata-courses-nba-prediction
+      mount_point: /cybershuttle_data/airavata-courses-nba-prediction
   data_collection: []
 
 additional_dependencies:
