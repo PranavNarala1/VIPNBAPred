@@ -2,11 +2,11 @@ project:
   name: "NBA Prediction Model"
   description: "Predict NBA game outcomes using TensorFlow"
   authors:
-    - Your Name
+    - Pratham Patel
+    - Pranav Narala
+    - Naman Goyal
   tags:
-    - nba
-    - prediction
-    - tensorflow
+    - airavata-courses
 
 workspace:
   location: /workspace
@@ -16,7 +16,10 @@ workspace:
     min_mem: 8192
     gpu_mem: 1024
   model_collection: []
-  data_collection: []
+  data_collection:
+    - source: cybershuttle
+      identifier: airavata-courses-nba-prediction
+      mount_point: /cybershuttle_data/airavata-courses-nba-prediction
 
 additional_dependencies:
   conda:
